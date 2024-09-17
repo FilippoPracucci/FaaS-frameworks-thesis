@@ -1,13 +1,14 @@
-\usepackage[english]{babel}
+\usepackage[italian]{babel}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{amssymb,amsmath}
-\usepackage[english]{cleveref}
+\usepackage[italian]{cleveref}
 \usepackage{geometry}
 \usepackage{titling}
 \usepackage[inline]{enumitem}
 \usepackage{setspace}
 \usepackage{fancyhdr}
+\usepackage{mathptmx}
 
 \fancypagestyle{plain}{
     \fancyhf{}
@@ -67,8 +68,12 @@
     \newgeometry{margin=0.8in}
     \begin{titlepage}
         \centering
-        \large
-        \textbf{\theschool}
+        % \large
+        % \textbf{\theschool}
+        \begin{figure}
+            \centering
+            \includegraphics[scale=0.2]{figures/logo.pdf}
+        \end{figure}
         \\
         \noindent\hrulefill
         \vspace{0.4cm}

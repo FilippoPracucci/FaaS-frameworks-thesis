@@ -1,0 +1,14 @@
+{
+    "activationId": "31809ddca6f64cfc9de2937ebd44fbb9",
+    "response": {
+        "statusCode": 0,
+        "result": {
+            "hello": "world"
+        }
+    },
+    "end": 1474459415621,
+    "logs": [
+        "2016-09-21T12:03:35.619234386Z stdout: Hello World"
+    ],
+    "start": 1474459415595
+}
